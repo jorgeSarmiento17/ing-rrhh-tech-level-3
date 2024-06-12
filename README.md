@@ -1,4 +1,4 @@
-# Prueba Técnica de Selección L3
+# ing-rrhh-tecno-nivel-3
 
 Este repositorio contiene la solución a la prueba técnica de selección L3.
 
