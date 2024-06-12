@@ -5,19 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranage - Login</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos adicionales para el mensaje de carga */
+        #loading-message {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <img src="ranage_logo.png" alt="Ranage Logo">
-        <form action="#" method="post">
+        <img src="imagenes\ranage_logo.png" alt="Ranage Logo">
+        <form action="#" method="post" id="login-form">
             <input type="text" id="username" name="username" placeholder="Username" required>
             <input type="password" id="password" name="password" placeholder="Password" required>
             <label for="remember"><input type="checkbox" id="remember" name="remember"> Remember me</label>
-           
-            <button type="submit">Login</button>
-             <a href="#" class="forgot-password">Forgot your password?</a>
+            <button type="submit" id="login-button">Login</button>
+            <a href="#" id="forgot-password-link" class="forgot-password">Forgot your password?</a>
+            <!-- Mensaje de carga -->
+            <p id="loading-message">Loading...</p>
             <p>Designed for Ingenia Software SAS</p>
+             <img src="imagenes\imagen2.png" alt="Company Logo" id="company-logo">
         </form>
     </div>
+
+    <script>
+        // Obtener el formulario y el botón de login
+        var loginForm = document.getElementById("login-form");
+        var loginButton = document.getElementById("login-button");
+
+        // Agregar un evento de envío al formulario
+        loginForm.addEventListener("submit", function(event) {
+            // Mostrar el mensaje de carga
+            var loadingMessage = document.getElementById("loading-message");
+            loadingMessage.style.display = "block";
+
+            // Prevenir el envío del formulario
+            event.preventDefault();
+
+            // Simular un retraso de redireccionamiento
+            setTimeout(function() {
+                // Redirigir de vuelta a la página de login
+                window.location.href = "index.html";
+            }, 3000); // 3000 milisegundos = 3 segundos (puedes ajustar el tiempo según tu preferencia)
+        });
+
+        // Obtener el enlace "Forgot your password?"
+        var forgotPasswordLink = document.getElementById("forgot-password-link");
+
+        // Agregar un evento de clic al enlace
+        forgotPasswordLink.addEventListener("click", function(event) {
+            // Prevenir el comportamiento predeterminado del enlace
+            event.preventDefault();
+
+            // Mostrar el mensaje de carga
+            var loadingMessage = document.getElementById("loading-message");
+            loadingMessage.style.display = "block";
+
+            // Simular un retraso de redireccionamiento
+            setTimeout(function() {
+                // Redirigir de vuelta a la página de login
+                window.location.href = "index.html";
+            }, 3000); // 3000 milisegundos = 3 segundos (puedes ajustar el tiempo según tu preferencia)
+        });
+    </script>
 </body>
 </html>
