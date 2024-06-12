@@ -1,7 +1,8 @@
 
 # Página de Login para Ranage
 
-Esta página de login está diseñada para reflejar la identidad de la marca "Ranage", una compañía de alimentos.
+Esta página de login está diseñada para reflejar la identidad de la marca "Ranage", una compañía de alimentos. 
+Con este link puedes visualizarla a nivel web https://jorgesarmiento17.github.io/ing-rrhh-tech-level-3/login/index.html
 
 ## Estructura de Archivos
 
