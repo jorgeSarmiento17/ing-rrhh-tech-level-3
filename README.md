@@ -38,6 +38,11 @@ Esta carpeta contiene un ensayo sobre el segundo punto de la prueba. Incluye:
 Esta carpeta contiene una propuesta gráfica para el tercer punto de la prueba. Incluye:
 
 - `README.md`: Descripción de la propuesta gráfica.
+- `index.html`: Página HTML para el formulario de login.
+- `style.css`: Hoja de estilos CSS para el diseño de la página.
+- `ranage_logo.png`: Logo de la compañía Ranage.
+Con este enlace puede acceder para vizulizarla a nivel web https://jorgesarmiento17.github.io/ing-rrhh-tech-level-3/login/index.html
+  
 
 ## Ejecución de las Pruebas
 
