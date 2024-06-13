@@ -41,7 +41,7 @@ Esta carpeta contiene una propuesta gráfica para el tercer punto de la prueba. 
 - `style.css`: Hoja de estilos CSS para el diseño de la página.
 - `ranage_logo.png`: Logo de la compañía Ranage.
 
-Puedes visualizar la página de login en el siguiente enlace: [Página de Login](https://jorgesarmiento17.github.io/ing-rrhh-tech-level-3/login/index.html)
+Se puede visualizar la página de login en el siguiente enlace: [Página de Login](https://jorgesarmiento17.github.io/ing-rrhh-tech-level-3/login/index.html)
 
 ## Ejecución de las Pruebas
 
